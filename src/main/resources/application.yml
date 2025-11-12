@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: spring-boot-admin
+  boot:
+    admin:
+      ui:
+        title: PaymentChain Monitoring
+      notify:
+        mail:
+          enabled: false
+
+server:
+  port: 8062
+
+eureka:
+  client:
+    service-url:
+      defaultZone: ${EUREKA_SERVER:http://localhost:8761/eureka}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+    metrics:
+      enabled: true
+    loggers:
+      enabled: true
+
+logging:
+  level:
+    de.codecentric: DEBUG
