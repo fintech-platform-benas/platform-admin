@@ -11,9 +11,9 @@
 	</parent>
 
 	<groupId>com.paymentchain</groupId>
-	<artifactId>springBootAdmin</artifactId>
+	<artifactId>spring-boot-admin</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springBootAdmin</name>
+	<name>spring-boot-admin</name>
 	<description>Spring Boot Admin - Payment Chain Infrastructure</description>
 	<packaging>jar</packaging>
 
