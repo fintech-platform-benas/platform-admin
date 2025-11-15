@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: spring-boot-admin-test
+  cloud:
+    config:
+      enabled: false
+
+server:
+  port: 0
+
+eureka:
+  client:
+    enabled: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
